@@ -1,0 +1,70 @@
+[Cast,Call,Typed,Import,Set,Extend,Use,Create,Throw,Implement,Modify]
+34
+0 0 0 0 0 0 01110010000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01000000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 11110000000 0 0 11010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 11110000000 11100000000 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 01110000000 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+01110000000 0 10110010000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 11110000000 0 11010010000 01000000000 01010001000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01110010000 0 0 01110000000 00010010000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 00110000000 0 0 0 01110000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 00110000000 0 0 0 00110000000 01100100010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 00010000000 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 01110000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+11110011000 0 0 0 0 0 01110010000 0 11110010000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01110010000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+01110010000 0 0 0 0 0 01110010000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 01110000000 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 11110000000 0 0 01000000000 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 11110000000 0 0 11110010000 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 01000000000 0 0 0 0 0 0 
+0 0 0 0 00110000000 0 01110010000 0 01110000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 01100001000 0 01000000000 0 0 0 0 0 0 
+0 0 0 0 11110010000 0 01010000000 0 11110010000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 01110000000 0 01110000000 0 01110010000 01100100010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 01100001000 0 0 0 0 
+0 0 0 0 00010000000 0 01110000000 0 01110010000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 01010000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 01110011000 0 
+11110010000 11110000000 10110010000 0 11110010000 0 01010000000 0 11110010000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 01000000000 0 0 
+0 01110001000 01010000000 0 01110001000 0 01010000000 0 01010000000 0 0 00010010000 00010010000 00010010000 00010010000 00010010000 00010010000 00010010000 01010001000 01010001000 00010010000 00010010000 01010000000 00010010000 00010010000 0 0 0 0 0 0 0 01010001000 0 
+org.apache.hadoop.hive.ql.optimizer.calcite.reloperators.HiveMultiJoin_java
+org.apache.hadoop.hive.ql.optimizer.calcite.RelOptHiveTable_java
+org.apache.hadoop.hive.ql.optimizer.calcite.reloperators.HiveProject_java
+org.apache.hadoop.hive.ql.optimizer.calcite.translator.ASTBuilder_java
+org.apache.hadoop.hive.ql.optimizer.calcite.reloperators.HiveTableScan_java
+org.apache.hadoop.hive.ql.optimizer.calcite.translator.PlanModifierUtil_java
+org.apache.hadoop.hive.ql.optimizer.calcite.HiveCalciteUtil_java
+org.apache.hadoop.hive.ql.optimizer.calcite.translator.PlanModifierForASTConv_java
+org.apache.hadoop.hive.ql.optimizer.calcite.reloperators.HiveJoin_java
+org.apache.hadoop.hive.ql.optimizer.calcite.cost.HiveCostModel_java
+org.apache.hadoop.hive.ql.optimizer.calcite.cost.HiveDefaultCostModel_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveFilterProjectTransposeRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveSortJoinReduceRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveJoinToMultiJoinRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveFilterSortTransposeRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveJoinAddNotNullRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HivePreFilteringRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveInsertExchange4JoinRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveJoinPushTransitivePredicatesRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveFilterAggregateTransposeRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveSortProjectTransposeRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveSortMergeRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.translator.PlanModifierForReturnPath_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveFilterSetOpTransposeRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveFilterJoinRule_java
+org.apache.hadoop.hive.ql.optimizer.calcite.stats.FilterSelectivityEstimator_java
+org.apache.hadoop.hive.ql.optimizer.calcite.stats.HiveRelMdSelectivity_java
+org.apache.hadoop.hive.ql.optimizer.calcite.stats.HiveRelMdDistinctRowCount_java
+org.apache.hadoop.hive.ql.optimizer.calcite.cost.HiveOnTezCostModel_java
+org.apache.hadoop.hive.ql.optimizer.calcite.cost.HiveAlgorithmsUtil_java
+org.apache.hadoop.hive.ql.optimizer.calcite.stats.HiveRelMdPredicates_java
+org.apache.hadoop.hive.ql.optimizer.calcite.translator.HiveGBOpConvUtil_java
+org.apache.hadoop.hive.ql.optimizer.calcite.translator.HiveOpConverter_java
+org.apache.hadoop.hive.ql.parse.CalcitePlanner_java
