@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--
+  cluster.xsd
+  Copyright (c) 2008, Drexel University.
+  All rights reserved.
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  THE SOFTWARE.
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="cluster" type="ClusterType">
+		<!-- ensure all leaf items have unique names -->
+		<xsd:unique name="Items">
+			<xsd:selector xpath=".//item" />
+			<xsd:field xpath="@name" />
+		</xsd:unique>
+
+		<!-- ensure unique names within each group -->
+		<xsd:unique name="ClusterGroups">
+			<xsd:selector xpath="group | item" />
+			<xsd:field xpath="@name" />
+		</xsd:unique>
+	</xsd:element>
+
+	<xsd:complexType name="ClusterType" mixed="false">
+		<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="item" type="ItemType"
+					minOccurs="0" maxOccurs="unbounded" />
+
+			<xsd:element name="group" type="GroupType"
+					minOccurs="0" maxOccurs="unbounded">
+				<!-- ensure unique names within each group -->
+				<xsd:unique name="Groups">
+					<xsd:selector xpath="group | item" />
+					<xsd:field xpath="@name" />
+				</xsd:unique>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="GroupType" mixed="false">
+		<xsd:complexContent>
+			<xsd:extension base="ClusterType">
+				<xsd:attribute name="name" type="IdentifierType" use="required" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="ItemType">
+		<xsd:attribute name="name" type="IdentifierType" use="required" />
+	</xsd:complexType>
+
+	<xsd:simpleType name="IdentifierType">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[a-zA-Z_$][a-zA-Z0-9_:$.-]*" />
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>
